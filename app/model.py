@@ -1,5 +1,5 @@
-from scraper import load_data
-from features import create_features
+from app.scraper import load_data
+from app.features import create_features
 
 from sklearn.model_selection import (
     train_test_split
